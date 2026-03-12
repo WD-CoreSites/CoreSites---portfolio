@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoreSites | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">CoreSites</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Front-End Developer & Web Enthusiast</h2>
+        <p>I build clean, simple, professional websites for companies and businesses.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Here are some example websites I've built:</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>A simple e-commerece called shopEase showcasing fictional product.</p>
+            <a href="https://wd-coresites.github.io/CoreSites---project-1-/" target="_blank" rel="noopener">
+              View live
+            </a>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>A simple 1 page website.</p>
+            <a href="https://wd-coresites.github.io/CoreSites---project-2-/" target="_blank" rel="noopener">
+              View live
+            </a>
+          </article>
+
+          <!-- Add more project cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I’m Kymani, experimenting with web development by building focused example sites.
+          This portfolio collects those experiments in one place.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          You can reach me via
+          <a href="mailto:youremail@example.com">WD.CoreSites@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Kymani. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
